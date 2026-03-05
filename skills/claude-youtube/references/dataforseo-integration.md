@@ -176,7 +176,7 @@ if a creator's videos are being cited by AI platforms and identify gaps.
 | `/youtube calendar` | 3-5 (trends + volume for scheduling) | ~$0.008 |
 | `/youtube audit <channel>` | 8-15 (YouTube SERP + volume + video info × videos) | ~$0.04 |
 | `/youtube analyze <video>` | 2-4 (video info + YouTube SERP + keyword overview) | ~$0.008 |
-| `/youtube metadata <video>` | 2-3 (volume + difficulty for tags) | ~$0.005 |
+| `/youtube metadata <video>` | 2-3 (volume + difficulty for tags) | ~$0.004 |
 
 ## YouTube SERP Research Workflow
 
