@@ -58,7 +58,7 @@
 | CTA | Subscribe, comment prompt |
 | Closing | 3 hashtags |
 
-- `[2025]` **29.5%** of Google AI Overviews cite YouTube (BrightEdge)
+- `[2025]` **29.5%** of Google AI Overviews cite YouTube (BrightEdge, mid-2025)
 
 ---
 
@@ -187,4 +187,4 @@
 - **Clickbait penalty is AI-enforced** `[2025]` -- Gemini compares metadata to actual content. No manual review needed to trigger suppression
 - **Auto-captions are inferior** to manual SRT for SEO indexing
 - **Chapters require 0:00 start** -- omitting it disables the entire chapter system
-- **Google AI Overviews increasingly cite YouTube** (29.5%) -- optimize descriptions for Google, not just YouTube search
+- **Google AI Overviews increasingly cite YouTube** (29.5%, BrightEdge mid-2025) -- optimize descriptions for Google, not just YouTube search

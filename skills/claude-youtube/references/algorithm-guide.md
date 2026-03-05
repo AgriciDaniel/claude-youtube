@@ -64,7 +64,7 @@ Videos are tested through progressively wider audiences:
 
 ### CTR by Traffic Source `[2025]`
 
-Source: Focus Digital, December 2025
+Source: Focus Digital (single-agency report), December 2025
 
 | Traffic Source | Average CTR |
 |---------------|-------------|
@@ -146,7 +146,7 @@ Source: vidIQ, 5.08M channels analyzed
 | Aug 2025 | `[2025]` Undocumented ~30% viewership drops reported; desktop-to-mobile shift observed |
 | Oct 2025 | `[2025]` Pichai confirms Shorts earn more per watch hour than in-stream ads in US |
 | Late 2025 | `[2025]` Home feed long-form reduced up to 80% (per MrBeast retention director). Shorts consuming feed real estate |
-| Dec 2025 | `[2025]` Shorts freshness prioritization; Shorts older than ~28-30 days deprioritized |
+| Sep 2025 | `[2025]` Shorts freshness prioritization; Shorts older than ~28-30 days deprioritized |
 
 ---
 

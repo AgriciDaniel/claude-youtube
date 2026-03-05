@@ -124,13 +124,13 @@ Add to `~/.claude/settings.json` under `mcpServers`:
     "env": {
       "DATAFORSEO_USERNAME": "your-username",
       "DATAFORSEO_PASSWORD": "your-password",
-      "ENABLED_MODULES": "SERP,KEYWORDS_DATA,DATAFORSEO_LABS,CONTENT_ANALYSIS"
+      "ENABLED_MODULES": "SERP,KEYWORDS_DATA,DATAFORSEO_LABS,ONPAGE"
     }
   }
 }
 ```
 
-Typical workflow costs $0.005-$0.04 per command. See [DataForSEO pricing](https://dataforseo.com/pricing).
+Typical workflow costs $0.002-$0.04 per command. See [DataForSEO pricing](https://dataforseo.com/pricing).
 
 ### Optional: NanoBanana MCP (for AI thumbnail generation)
 
@@ -139,8 +139,8 @@ When configured, the `/youtube thumbnail` command generates actual thumbnail ima
 ```json
 {
   "nanobanana": {
-    "command": "npx",
-    "args": ["-y", "nanobanana-mcp-server"],
+    "command": "uvx",
+    "args": ["nanobanana-mcp-server"],
     "env": {
       "GEMINI_API_KEY": "your-gemini-api-key"
     }

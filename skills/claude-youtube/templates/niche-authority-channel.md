@@ -71,7 +71,7 @@ Deliver the hook in 0-8 seconds. Follow with a credibility stamp (10-20 seconds)
 | 4 | **Shopping Affiliate** | Natural fit — reviewing tools, software, financial products. Commission-based revenue compounds with evergreen content. |
 | 5 | **Memberships** | Behind-the-scenes, exclusive analysis, early access. $9.99-$49.99/month tiers work when audience is professional. YouTube takes 30%. |
 | 6 | **Super Chat/Thanks** | Live Q&A sessions on niche topics generate solid Super Chat revenue from professionals seeking advice. |
-| 7 | **Shorts Ad Share** | Low RPM ($0.01-$0.30) but drives discovery for high-RPM long-form. Treat as a funnel, not a revenue stream. |
+| 7 | **Shorts Ad Share** | Low RPM ($0.01-$0.07) but drives discovery for high-RPM long-form. Treat as a funnel, not a revenue stream. |
 
 ## 8. Growth Trajectory
 

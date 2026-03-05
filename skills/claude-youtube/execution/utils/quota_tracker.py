@@ -10,7 +10,7 @@ Quota costs:
     channels.list  = 1 unit
     playlistItems.list = 1 unit
     commentThreads.list = 1 unit
-    videos.insert  = 1,600 units
+    videos.insert  = 100 units
 
 Usage:
     python execution/utils/quota_tracker.py --check
@@ -37,7 +37,7 @@ OPERATION_COSTS = {
     "commentThreads.list": 1,
     "captions.list": 1,
     "playlists.list": 1,
-    "videos.insert": 1600,
+    "videos.insert": 100,
 }
 
 PACIFIC_OFFSET = timedelta(hours=-8)  # PST (approximate; doesn't handle DST)

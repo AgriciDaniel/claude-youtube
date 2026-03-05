@@ -69,7 +69,7 @@ Deliver the hook in 0-5 seconds. Cut to a brief context-set (5-15 seconds), then
 | 3 | **Memberships** | Loyal audiences pay for early access, behind-the-scenes, extended cuts. $4.99/month sweet spot. YouTube takes 30%. |
 | 4 | **External Funnels** | Newsletter, podcast, Patreon. Own the audience off-platform. Email list is insurance against algorithm shifts. |
 | 5 | **Super Chat/Thanks** | Works if you do occasional livestream commentary on breaking events. Spiky but real revenue. |
-| 6 | **Shorts Ad Share** | Repurposed clips generate incremental revenue. RPM is low ($0.01-$0.30) but drives long-form discovery. |
+| 6 | **Shorts Ad Share** | Repurposed clips generate incremental revenue. RPM is low ($0.01-$0.07) but drives long-form discovery. |
 | 7 | **Shopping Affiliate** | Lowest priority — commentary rarely has natural product tie-ins unless reviewing physical products. |
 
 ## 8. Growth Trajectory

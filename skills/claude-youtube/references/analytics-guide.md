@@ -148,11 +148,13 @@
 
 ### Queryable Metrics
 
-- `views`, `estimatedMinutesWatched`, `averageViewDuration`
+- `views`, `engagedViews`, `estimatedMinutesWatched`, `averageViewDuration`
 - `estimatedRevenue`, `estimatedAdRevenue`, `grossRevenue`, `CPM`
 - `likes`, `dislikes`, `comments`, `shares`
 - `subscribersGained`, `subscribersLost`
 - `cardClickRate`, `playlistViews`, `playlistStarts`
+
+**`engagedViews`** `[2025]`: Official metric since April 2025. For long-form, equals `views`. For Shorts, captures the pre-March 2025 view counting (minimum watch time required). Use `engagedViews` for accurate Shorts performance comparison across the view counting change.
 
 ### Available Dimensions
 

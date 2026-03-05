@@ -100,9 +100,9 @@
 |-------|-------------------|
 | Finance | $0.05-$0.30 |
 | Comedy / Lifestyle | $0.01-$0.05 |
-| General range | $0.01-$0.30 |
+| Typical range | $0.01-$0.07 (finance: up to $0.30) |
 
-- **1M views ~ $30-$300**
+- **1M views ~ $10-$70** (finance: up to $300)
 - `[2025]` vidIQ: **150% RPM increase** in 2025
 - `[2025]` Shorts = **22% of YouTube total ad revenue** (up from 15% in 2024)
 
@@ -134,7 +134,7 @@
 
 - If **Viewed vs Swiped Away** is under **60%**, test a new opening immediately
 
-### `[2025]` Freshness Prioritization (December 2025)
+### `[2025]` Freshness Prioritization (September 2025)
 
 - Algorithm deprioritizes Shorts older than **~28-30 days**
 
@@ -146,7 +146,7 @@
 - Content ID music blocks kill 1-3 min Shorts globally
 - No TikTok watermarks -- algorithm suppresses them
 - March 2025 view counting change inflates totals ~30%; use **Engaged Views** for accuracy
-- December 2025 freshness decay: Shorts lose algorithmic push after ~28-30 days
+- September 2025 freshness decay: Shorts lose algorithmic push after ~28-30 days
 - Revenue is pooled, not per-video -- music tracks directly reduce your share
 - 10% audience overlap means Shorts and long-form serve mostly **different audiences**
 - Hook must land in 1-3 seconds; visual changes every 3 seconds minimum

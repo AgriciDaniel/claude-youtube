@@ -71,7 +71,7 @@ Open with 5-10 seconds of story or personal stake. Cut to a quick "here's what t
 | 4 | **AdSense** | Secondary revenue. RPM varies ($5-25) based on topic mix. Reliable baseline but rarely the primary income driver for personal brands. |
 | 5 | **Shopping Affiliate** | Recommend tools, books, gear you actually use. Authentic affiliate content converts well when the audience trusts the creator. |
 | 6 | **Super Chat/Thanks** | Live sessions, AMAs, community calls. Supplement income during launch events or live workshops. |
-| 7 | **Shorts Ad Share** | Low RPM ($0.01-$0.30). Use Shorts for awareness and email-list growth, not direct revenue. |
+| 7 | **Shorts Ad Share** | Low RPM ($0.01-$0.07). Use Shorts for awareness and email-list growth, not direct revenue. |
 
 **Critical asset: the email list.** Every video should include a CTA driving viewers to a lead magnet (free guide, template, mini-course). An email list of 5K converts at 2-5% on a $200 product = $20K-50K per launch.
 

@@ -26,7 +26,7 @@ Validate metadata choices with live data:
 
 **Fallback:** If DataForSEO is unavailable, rely on keyword heuristics from the SEO playbook reference.
 
-**Efficiency:** Typical metadata workflow costs ~$0.005 (2-3 API calls).
+**Efficiency:** Typical metadata workflow costs ~$0.004 (2-3 API calls).
 
 ## Parallel Agents
 

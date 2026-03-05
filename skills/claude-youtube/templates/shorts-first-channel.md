@@ -7,7 +7,7 @@
 
 ## 1. Channel DNA
 
-Shorts-first channels are **completion-rate machines operating inside a swipe-driven feed**. The algorithm is fundamentally different from long-form: the primary signal is **Viewed vs Swiped Away** (target: 75%+ Viewed), followed by **completion rate** (70%+ is good, 90%+ is exceptional), then likes, comments, and shares. Content length sweet spots are **13 seconds** (highest completion) and **50-60 seconds** (highest ad revenue per view). RPM reality is harsh: $0.01-$0.30 per 1K views, and using even 1 licensed music track forces a 50% revenue share with the rights holder. The December 2025 freshness shift means YouTube now heavily weights content recency — a 28-30 day window determines most Shorts distribution. This channel type prioritises **volume and velocity** over production polish. Growth can be explosive (100K subs in 3-6 months is achievable) but monetisation requires a deliberate bridge to long-form or external revenue.
+Shorts-first channels are **completion-rate machines operating inside a swipe-driven feed**. The algorithm is fundamentally different from long-form: the primary signal is **Viewed vs Swiped Away** (target: 75%+ Viewed), followed by **completion rate** (70%+ is good, 90%+ is exceptional), then likes, comments, and shares. Content length sweet spots are **13 seconds** (highest completion) and **50-60 seconds** (highest ad revenue per view). RPM reality is harsh: $0.01-$0.07 per 1K views, and using even 1 licensed music track forces a 50% revenue share with the rights holder. The September 2025 freshness shift means YouTube now heavily weights content recency — a 28-30 day window determines most Shorts distribution. This channel type prioritises **volume and velocity** over production polish. Growth can be explosive (100K subs in 3-6 months is achievable) but monetisation requires a deliberate bridge to long-form or external revenue.
 
 ## 2. Optimal Content Mix
 
@@ -66,7 +66,7 @@ Zero tolerance for slow starts. The "Viewed vs Swiped Away" metric is decided in
 |------|--------|-------------------|
 | 1 | **External Funnels** | Shorts RPM is too low to be the primary revenue. Use Shorts as a massive top-of-funnel for email lists, products, courses, or apps. A 100K-sub Shorts channel can build a 10K email list in months. |
 | 2 | **Brand Deals** | Shorts sponsorships pay per-video, not per-view. 50K-100K subs with high engagement = $500-2K per sponsored Short. Brands want the audience reach. |
-| 3 | **Shorts Ad Share** | RPM: $0.01-$0.30/1K Engaged Views. At 1M views/month = $10-300. Using 1 licensed music track = 50% share to rights holder. Use original audio or royalty-free music to keep 100%. |
+| 3 | **Shorts Ad Share** | RPM: $0.01-$0.07/1K Engaged Views (finance: up to $0.30). At 1M views/month = $10-70. Using 1 licensed music track = 50% share to rights holder. Use original audio or royalty-free music to keep 100%. |
 | 4 | **Shopping Affiliate** | Quick product showcases and "things I use" Shorts convert well. Link in description. Natural for lifestyle, tech, and beauty niches. |
 | 5 | **Long-form AdSense (bridge strategy)** | Publish 1-2 long-form videos per week to capture subscribers gained from Shorts. Long-form RPM is 10-100x Shorts RPM. This is the real monetisation play. |
 | 6 | **Memberships** | At scale (50K+ subs), offer exclusive Shorts, bloopers, or community access. $0.99-$4.99/month. YouTube takes 30%. |
@@ -88,8 +88,8 @@ Shorts growth is nonlinear — one viral hit can add 10K-50K subs in a week. But
 
 ## 9. Common Failure Modes
 
-**1. No long-form bridge** — Building a massive Shorts audience but never giving them long-form content. Revenue stays at $0.01-$0.30 RPM forever. The channel is big but broke. **Fix**: Start publishing 1 long-form video per week by the time you hit 5K subs. Tease long-form in Shorts end-cards. The long-form bridge is where Shorts-first channels actually make money.
+**1. No long-form bridge** — Building a massive Shorts audience but never giving them long-form content. Revenue stays at $0.01-$0.07 RPM forever. The channel is big but broke. **Fix**: Start publishing 1 long-form video per week by the time you hit 5K subs. Tease long-form in Shorts end-cards. The long-form bridge is where Shorts-first channels actually make money.
 
 **2. Music licensing revenue drain** — Using trending licensed audio on every Short. Each track with a licensed song forces a 50% revenue share to the rights holder, cutting already-low RPM in half. **Fix**: Use original audio, voiceover, or royalty-free music for at least 50% of Shorts. Save licensed audio for trend-riding Hero content where virality justifies the revenue split.
 
-**3. Ignoring the freshness window** — Taking a 2-week break and expecting to resume where you left off. The December 2025 algorithm update weights recency heavily — Shorts older than 28-30 days receive drastically reduced distribution. Inconsistent posting resets the channel's momentum. **Fix**: Build a 2-week content buffer. Batch-film 20-30 Shorts in one session. Schedule daily publishing even during breaks. If you stop posting, expect 2-3 weeks of rebuilding before distribution normalises.
+**3. Ignoring the freshness window** — Taking a 2-week break and expecting to resume where you left off. The September 2025 algorithm update weights recency heavily — Shorts older than 28-30 days receive drastically reduced distribution. Inconsistent posting resets the channel's momentum. **Fix**: Build a 2-week content buffer. Batch-film 20-30 Shorts in one session. Schedule daily publishing even during breaks. If you stop posting, expect 2-3 weeks of rebuilding before distribution normalises.

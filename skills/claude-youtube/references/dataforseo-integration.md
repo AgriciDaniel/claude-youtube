@@ -153,11 +153,11 @@ if a creator's videos are being cited by AI platforms and identify gaps.
 
 | Sub-Skill | DataForSEO Modules | What It Gets |
 |-----------|-------------------|--------------|
-| ideate | KEYWORDS_DATA, SERP (YouTube), CONTENT_ANALYSIS | Keyword ideas, YouTube SERP competition, trends, search volume for idea validation |
+| ideate | KEYWORDS_DATA, SERP (YouTube), ONPAGE | Keyword ideas, YouTube SERP competition, trends, search volume for idea validation |
 | seo | KEYWORDS_DATA, DATAFORSEO_LABS, SERP (YouTube) | Volume, difficulty, intent for title/tag optimisation, YouTube SERP for competition check |
 | competitor | SERP (YouTube), DATAFORSEO_LABS | YouTube SERP for keyword gaps, competitor domain analysis, ranked keywords |
-| strategy | KEYWORDS_DATA, DATAFORSEO_LABS, SERP (YouTube), CONTENT_ANALYSIS | Trends, volume, competition depth, niche viability, content gaps |
-| calendar | KEYWORDS_DATA, CONTENT_ANALYSIS | Google Trends for seasonal planning, volume for prioritisation |
+| strategy | KEYWORDS_DATA, DATAFORSEO_LABS, SERP (YouTube), ONPAGE | Trends, volume, competition depth, niche viability, content gaps |
+| calendar | KEYWORDS_DATA, ONPAGE | Google Trends for seasonal planning, volume for prioritisation |
 | analyze | SERP (YouTube), DATAFORSEO_LABS | YouTube SERP position tracking, keyword overview for diagnosed videos |
 | audit | SERP (YouTube), DATAFORSEO_LABS, KEYWORDS_DATA | Channel keyword coverage, YouTube SERP positions, competitor benchmarking |
 | shorts | SERP (YouTube), KEYWORDS_DATA | Shorts-specific keyword trends, YouTube SERP Shorts ratio |
@@ -210,4 +210,4 @@ Standard research pattern for any YouTube sub-skill:
 - **Subtitles may be auto-generated** -- check the auto-generation flag in `serp_youtube_video_subtitles_live_advanced` responses. Auto-generated transcripts contain errors that affect content analysis accuracy
 - **CPC as RPM proxy is approximate** -- higher Google Ads CPC generally correlates with higher YouTube RPM for a topic, but the relationship is not linear. Use as a directional signal, not a precise estimate
 - **Trends data compares relative interest, not absolute volume** -- `kw_data_google_trends_explore` returns index values (0-100), not search counts. Always pair with volume data for a complete picture
-- **Cost awareness** -- typical YouTube workflow costs $0.005-$0.04. Warn the user before operations exceeding ~$0.05 (large keyword lists, multiple YouTube SERP queries)
+- **Cost awareness** -- typical YouTube workflow costs $0.002-$0.04. Warn the user before operations exceeding ~$0.05 (large keyword lists, multiple YouTube SERP queries)

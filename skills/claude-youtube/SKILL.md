@@ -165,7 +165,7 @@ because DataForSEO is unavailable.
 
 ### API Credit Awareness
 
-DataForSEO charges per API call. Typical workflow costs $0.005-$0.04.
+DataForSEO charges per API call. Typical workflow costs $0.002-$0.04.
 Rules:
 - Batch keywords into single calls (volume, difficulty, intent tools accept arrays)
 - Don't re-fetch data already retrieved in the same session
