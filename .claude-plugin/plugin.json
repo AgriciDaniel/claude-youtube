@@ -1,0 +1,8 @@
+{
+  "name": "youtube",
+  "version": "0.1.0",
+  "description": "YouTube creator skill for Claude Code. Channel audits, video SEO, retention scripts, hooks, thumbnails, content strategy, calendars, Shorts optimization, analytics, monetization, competitor research, and cross-platform repurposing.",
+  "author": "AgriciDaniel",
+  "license": "MIT",
+  "homepage": "https://github.com/AgriciDaniel/claude-youtube"
+}
