@@ -4,7 +4,7 @@
 
 A comprehensive [Claude Code](https://claude.com/claude-code) skill for YouTube creators. Covers channel audits, video SEO, retention-engineered scripts, hook writing, thumbnail briefs, content strategy, content calendars, Shorts optimization, analytics interpretation, monetization planning, competitor research, cross-platform repurposing, upload metadata packages, and data-driven video idea generation.
 
-**39 files** | **5,300+ lines of markdown** | **1,300+ lines of Python** | **14 sub-skills** | **9 reference guides** | **9 channel templates** | **6 execution scripts**
+**40 files** | **5,300+ lines of markdown** | **1,500+ lines of Python** | **14 sub-skills** | **9 reference guides** | **9 channel templates** | **7 execution scripts**
 
 ---
 
@@ -58,13 +58,14 @@ skills/claude-youtube/
     education-channel.md, entertainment-channel.md, tutorial-channel.md,
     vlog-channel.md, review-channel.md, commentary-channel.md,
     niche-authority-channel.md, personal-brand-channel.md, shorts-first-channel.md
-  execution/                        # 6 Python scripts for YouTube API integration
+  execution/                        # 7 Python scripts for YouTube API integration
     fetch_channel_data.py           # Channel stats + recent videos (~16 quota units)
     fetch_video_analytics.py        # Private analytics via OAuth
     search_competitor_videos.py     # Competitor video search (100 units/search)
     fetch_transcript.py             # Transcript extraction via yt-dlp
+    upload_video.py                 # Explicitly approved video uploads
     utils/quota_tracker.py          # 10K unit/day quota management
-    utils/youtube_auth.py           # API key + OAuth 2.0 handler
+    utils/youtube_auth.py           # API key + read-only and upload OAuth
 ```
 
 ### How It Works
@@ -109,6 +110,44 @@ The skill works without API credentials by accepting manual data input. For auto
    export YOUTUBE_API_KEY="your-api-key-here"
    ```
 3. For private analytics (own channel), set up OAuth 2.0 credentials
+
+#### Approved video uploads
+
+The optional upload CLI uses the YouTube Data API `videos.insert` method and a
+separate OAuth grant for `youtube.upload`; it does not use an API key. Save the
+OAuth desktop-client file at `~/.claude/youtube_client_secrets.json` after
+enabling YouTube Data API v3 in the Google Cloud project. Install the API
+libraries with `pip install google-api-python-client google-auth-oauthlib`, then
+run this once in a user session to authorize the channel:
+
+```bash
+python skills/claude-youtube/execution/utils/youtube_auth.py --authorize-upload
+```
+
+This interactive setup stores the refresh token at
+`~/.claude/.tmp/youtube_upload_oauth_token.json` with owner-only file permissions.
+The uploader itself is noninteractive after setup and requires an explicit
+`--approval-confirmed` argument from its caller. The calling application must
+enforce its own user-approval flow and invoke the CLI only after approval; this
+flag is not a substitute for that application-level gate. Uploads default to
+private and subscriber notifications are disabled unless requested.
+Use is subject to the [YouTube API Services Terms](https://developers.google.com/youtube/terms/api-services-terms-of-service)
+and [developer policies](https://developers.google.com/youtube/terms/developer-policies).
+
+Metadata JSON uses `title` (required), with optional `description`, `tags`,
+`category_id`, and `default_language`. Example:
+
+```bash
+python skills/claude-youtube/execution/upload_video.py ./video.mp4 \
+  --metadata-file ./metadata.json \
+  --approval-confirmed
+```
+
+To publish publicly, the caller must pass `--privacy-status public` in the
+same approved invocation. The script prints JSON containing `video_id` and
+requested and returned `privacy_status`; it does not publish through any other
+pathway. Upload requirements and supported fields are defined by the
+[videos.insert API](https://developers.google.com/youtube/v3/docs/videos/insert).
 
 ### Optional: DataForSEO MCP (for live keyword/trend data)
 
@@ -199,6 +238,7 @@ Data points tagged with `[2025]` reflect 2024-2025 platform changes.
 | Claude Code | Yes | Core dependency |
 | Python 3.8+ | For execution scripts | Not needed if providing data manually |
 | YouTube API key | No | Enables automated channel data fetching |
+| YouTube upload OAuth | No | Enables the approved-upload CLI after one-time user authorization |
 | DataForSEO MCP | No | Enables live keyword/trend data |
 | NanoBanana MCP | No | Enables AI thumbnail generation |
 
